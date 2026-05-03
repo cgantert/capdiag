@@ -1,0 +1,18 @@
+{
+  "orders.md": {
+    "title": "Orders Domain",
+    "includes": ["*"],
+    "excludes": ["DRAFT.*"],
+    "type": "mermaid",
+    "asMarkdown": true
+  },
+  "orders_overview.md": {
+    "title": "Orders Overview",
+    "includes": ["*"],
+    "excludes": ["DRAFT.*"],
+    "noFields": true,
+    "includeAssociationsToExcludedTargets": false,
+    "type": "mermaid",
+    "asMarkdown": true
+  }
+}
