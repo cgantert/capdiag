@@ -1,14 +1,21 @@
 {
   "name": "capdiag",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "description": "Generates Class Diagrams from SAP CAP (NodeJS) projects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": { "capdiag": "./cli.js" },
+  "bin": {
+    "capdiag": "cli.js"
+  },
   "type": "commonjs",
-  "files": ["cli.js", "lib/"],
-  "engines": { "node": ">=20.0.0" },
+  "files": [
+    "cli.js",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "keywords": [
     "SAP",
     "CAP",
