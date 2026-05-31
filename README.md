@@ -28,7 +28,7 @@ capdiag [options]
 | `--config` | | | Path to a configuration file. If omitted, capdiag looks for `.capdiag.json` in the current directory. |
 | `--dir` | `-D` | `diagrams` | Directory in which to write the generated diagram files. Created automatically if it does not exist. |
 | `--modelRoot` | `-m` | `.` | Root directory of the CDS model. All CDS files within it are loaded. Useful when running capdiag from outside the CAP project directory. |
-| `--asMarkdown` | `-md` | `false` | Wrap Mermaid output in a ` ```mermaid ` code block, ready to embed in Markdown files. Ignored for other diagram types. |
+| `--asMarkdown` | `-md` | `true` | Wrap Mermaid output in a ` ```mermaid ` code block, ready to embed in Markdown files. Ignored for other diagram types. |
 | `--help` | `-h` | | Show help. |
 
 ## Configuration File
@@ -121,3 +121,7 @@ capdiag
 ```
 
 Generates `diagrams/public.md` and `diagrams/internal.md`.
+
+## Samples
+
+See [samples/README.md](samples/README.md) for ready-to-use configuration files based on the SAP CAP sample projects.

@@ -39,7 +39,7 @@ exports.exec = async () => {
       alias: "md",
       describe: "Wrap Mermaid output in a ```mermaid code block (ignored for other diagram types).",
       type: "boolean",
-      default: false,
+      default: true,
     })
     .help()
     .alias("help", "h")

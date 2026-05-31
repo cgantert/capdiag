@@ -11,8 +11,17 @@
   "type": "commonjs",
   "files": [
     "cli.js",
-    "lib/"
+    "lib/",
+    "samples/"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgantert/capdiag.git"
+  },
+  "homepage": "https://github.com/cgantert/capdiag",
+  "bugs": {
+    "url": "https://github.com/cgantert/capdiag/issues"
+  },
   "engines": {
     "node": ">=20.0.0"
   },
